@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+
+    <!--Link CSSS-->
+    <link rel="stylesheet" href="../css/crud.css">
+
+    <!--Link Font Awesome-->
+    <script src="https://kit.fontawesome.com/f76a7be9d4.js" crossorigin="anonymous"></script>
+
+    <!--Link Google fonts-->
+
+    <!--Icon page-->
+    <link rel="icon" href="../images/user.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <div class="crud">
+        <div class="crud-header">
+            <h1>Cadastro de Clientes</h1>
+        </div>
+        <div class="btns-group">
+            <i class="fa-regular fa-floppy-disk"></i>
+            <button onclick="Salvar()">Salvar</button>
+        </div>
+        <div class="btns-group">
+            <i class="fa-solid fa-ban"></i>
+            <button>Cancelar</button>        
+        </div>
+        <div class="btns-group">
+            <i class="fa-solid fa-trash"></i>
+            <button>Excluir</button>
+        </div>
+        <div class="btns-group">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <button>Atualizar</button>
+        </div>
+        <div class="btns-group">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button>Pesquisar</button>
+            <input type="text" name="pesquisa" id="pesquisa">
+        </div>
+        <div class="input-group">
+            <label> Nome do Cliente </label>
+            <input type="text" name="nome" id="nome" class="inputs">
+        </div>
+        <div class="input-group">
+            <label> Sobrenome </label>
+            <input type="text" name="sobrenome" id="snome" class="inputs">
+        </div>
+        <div class="input-group">
+            <label> Cidade </label>
+            <input type="text" name="cidade" id="cidade" class="inputs">
+        </div>
+        <div class="input-group">
+            <label> Endereço </label>
+            <input type="text" name="endereco" id="endereco" class="inputs">
+        </div>
+        <div class="input-group">
+            <label> País </label>
+            <input type="text" name="pais" id="pais" class="inputs">
+        </div>
+        <div class="input-group">
+            <label> Email </label>
+            <input type="email" name="email" id="email" class="inputs">
+        </div>       
+    </div>
+    <div id="info">
+
+    </div>
+
+    <script src="../js/crud.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+#show {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.full-calculator {
+    border: 2px solid black;    
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 2px 4px;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+
+:root {
+    --green: rgb(0,255,0);
+    --red: rgb(255,0,0);
+    --blue: rgb(0,0,255);
+    --yellow: rgb(255,255,0);
+    --black: rgb(0,0,0);
+    --white: rgb(255,255,255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    align-items: center;
+    display: grid;
+}
+
+.list{    
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;    
+    display: grid;
+    justify-content: center;
+    background-color: var(--blue);
+    font-family: 'Phudu', sans-serif;
+}
+
+.list h1{
+    color: var(--yellow);
+    margin-top: 4px;
+}
+
+.list input {
+    border: none;
+    border-radius: 8px;
+    margin-top: 4px;
+    padding: 4px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: var(--red);
+    background-color: var(--black);
+    margin-top: 4px;
+}
+
+button:hover {
+    color:var(--black);
+    background-color: var(--red);
+    text-decoration: underline;
+}

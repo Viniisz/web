@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Forms</title>
+</head>
+<body>
+    
+    <div class="formulario">
+        <form action="POST">
+            <div class="form-header">
+                <h3>FORMULÁRIO</h3>
+            </div>
+            <div class="form-inputs">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Fulano de tal" required="required">
+            </div>
+            <div class="form-inputs">
+                <label for="snome">Sobrenome</label>
+                <input type="text" name="snome" id="snome" placeholder="Ciclano" required="required">
+            </div>
+            <div class="form-inputs">
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel" placeholder="(99)9999-999" required="required">
+            </div>
+            <div class="form-inputs">
+                <label for="email">Nome</label>
+                <input type="email" name="email" id="email" placeholder="email@email.com" required="required">
+            </div>
+            <div class="form-inputs">
+                <label for="genero">Gênero</label> <br>
+                <input type="radio" name="genero" id="male" value="male"> Homem <br>
+                <input type="radio" name="genero" id="female" value="female"> Mulher <br>
+                <input type="radio" name="genero" id="other" value="other"> Outro
+            </div>
+            <div class="form-footer">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    
+    </div>
+
+</body>
+</html>
